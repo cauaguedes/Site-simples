@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+header {
+    background-color: #000000;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #D60000;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    padding: 50px 20px;
+}
+.btn { display: inline-block;
+    padding: 10px 20px;
+    background-color: #D60000;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+footer {
+    background-color: #2B2B2B;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.sobre-container {
+    background-color: #1a1a1a; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.sobre-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.sobre-content h2 {
+    font-size: 2.5em;
+    color: #e60000; /* Vermelho destaque */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.sobre-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #ccc; /* Cinza claro */
+}
+
+.sobre-imagem {
+    margin-top: 30px;
+}
+
+.sobre-imagem img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5); /* Efeito de brilho vermelho */
+}
+
+/* Efeito de animação ao rolar */
+.sobre-container {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease-in-out;
+}
+
+.sobre-container.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fale-conosco-container {
+    background-color: #1a1a1a; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.fale-conosco-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.fale-conosco-content h2 {
+    font-size: 2.5em;
+    color: #e60000; /* Vermelho destaque */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.fale-conosco-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #ccc; /* Cinza claro */
+    margin-bottom: 30px;
+}
+
+/* Botão do WhatsApp */
+.fale-conosco-btn {
+    display: inline-block;
+    background-color: #25D366; /* Verde WhatsApp */
+    color: #fff;
+    font-size: 1.2em;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.fale-conosco-btn:hover {
+    background-color: #1ebe57; /* Tom mais escuro no hover */
+    transform: scale(1.05);
+}
+
+/* Efeito de animação ao rolar */
+.fale-conosco-container {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease-in-out;
+}
+
+.fale-conosco-container.show {
+    opacity: 1;
+    transform: translateY(0);
+}
